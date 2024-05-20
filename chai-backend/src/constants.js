@@ -1,1 +1,1 @@
-export const DB_NAME = "videotube";
+export let DB_NAME = "videotube";
