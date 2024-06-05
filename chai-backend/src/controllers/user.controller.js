@@ -97,7 +97,7 @@ const loginUser = asyncHandler(async (req, res) => {
   // username or email
   //find the user
   //password check
-  //access and referesh token
+  //access and refresh token
   //send cookie
   const { email, username, password } = req.body;
   console.log(email);
@@ -109,7 +109,7 @@ const loginUser = asyncHandler(async (req, res) => {
   if (!user) {
     throw new ApiError(404, "User does not exist");
   }
-  const isPasswordValid = await user.isPassworCorrect(password);
+  const isPasswordValid = await user.isPasswordCorrect(password);
 
   if (!isPasswordValid) {
     throw new ApiError(401, "Invalid user credentials");
@@ -126,7 +126,7 @@ const loginUser = asyncHandler(async (req, res) => {
   };
   return res
     .status(200)
-    .cookei("accessToken", accessToken, options)
+    .cookie("accessToken", accessToken, options)
     .cookie("refreshToken", refreshToken, options)
     .json(
       new ApiResponse(
