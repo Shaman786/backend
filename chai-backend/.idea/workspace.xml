@@ -7,6 +7,7 @@
     <list default="true" id="a93a5626-1dff-46d5-996e-e703069c8753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.model.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,10 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="oqz3xoio" />
   </component>
@@ -57,8 +62,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pnpm run dev" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -79,7 +94,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +117,13 @@
       <workItem from="1717577901505" duration="18000" />
       <workItem from="1717840367482" duration="1127000" />
       <workItem from="1717842038337" duration="26000" />
+      <workItem from="1717947721129" duration="597000" />
+      <workItem from="1717948327385" duration="2856000" />
+      <workItem from="1717996381199" duration="158000" />
+      <workItem from="1718097052773" duration="393000" />
+      <workItem from="1718097458134" duration="112000" />
+      <workItem from="1718097576790" duration="51000" />
+      <workItem from="1718097636222" duration="646000" />
     </task>
     <servers />
   </component>
